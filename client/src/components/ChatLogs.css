@@ -1,0 +1,145 @@
+/* ChatLogs.css */
+.chat-logs {
+    width: 70%;
+    height: 80vh;  /* Set a fixed height */
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Enables scrolling when needed */
+    scrollbar-width: thin;  /* Firefox */
+    scrollbar-color: #ccc transparent;  /* Firefox */
+}
+
+  
+  .header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .faq-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s;
+  }
+  
+  .faq-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 16px;
+  }
+  
+  .faq-answer {
+    margin-top: 5px;
+    color: #34495e;
+  }
+  
+  .faq-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .update-btn,
+  .delete-btn {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .update-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .update-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .faqDiv {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .faq-question {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .faq-answer {
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .faq-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .faq-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn, .delete-btn, .save-btn, .cancel-btn {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .edit-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .save-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #6c757d;
+    color: white;
+  }
+  
